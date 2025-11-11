@@ -1,0 +1,6 @@
+services:
+  dockerlearning:
+    image: dockerlearning
+    build:
+      context: .
+      dockerfile: ./Dockerfile
